@@ -1,7 +1,7 @@
 import { toKebabCase } from "@/utils";
 
 describe("toKebabCase", () => {
-  test("happy", () => {
+  test("successfully conversion to kebab case", () => {
     expect(toKebabCase()).toBe("");
     expect(toKebabCase("lorEm")).toBe("lor-em");
     expect(toKebabCase("LOREM")).toBe("lorem");
