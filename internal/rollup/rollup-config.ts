@@ -8,6 +8,12 @@ const pkg = require("../../package.json");
 const LIBRARY_NAME = "diesel-extensions";
 
 export default {
+  external: ["react", "react-dom", "@alxshelepenok/diesel"],
+  globals: {
+    react: "React",
+    "react-dom": "ReactDOM",
+    "@alxshelepenok/diesel": "@alxshelepenok/diesel",
+  },
   input: "src/index.ts",
   output: [
     { file: pkg.main, format: "umd", name: LIBRARY_NAME, sourcemap: true },
