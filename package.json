@@ -39,7 +39,7 @@
     ]
   },
   "dependencies": {
-    "@alxshelepenok/diesel": "^1.0.564",
+    "@alxshelepenok/diesel": "^1.0.565",
     "@alxshelepenok/react-hooks": "^1.0.60"
   },
   "devDependencies": {
@@ -48,9 +48,9 @@
     "@commitlint/config-conventional": "^17.2.0",
     "@jest/types": "^29.3.1",
     "@rollup/plugin-commonjs": "^22.0.2",
-    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-json": "^5.0.1",
     "@rollup/plugin-node-resolve": "^14.1.0",
-    "@rollup/plugin-typescript": "^8.5.0",
+    "@rollup/plugin-typescript": "^9.0.2",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@swc/core": "^1.3.18",
