@@ -24,12 +24,13 @@ export default {
     },
     {
       file: pkg.module,
+      format: "es",
       globals: {
         react: "React",
         "react-dom": "ReactDOM",
         "@alxshelepenok/diesel": "@alxshelepenok/diesel",
       },
-      format: "es",
+      name: LIBRARY_NAME,
       sourcemap: true,
     },
   ],
