@@ -9,15 +9,29 @@ const LIBRARY_NAME = "diesel-extensions";
 
 export default {
   external: ["react", "react-dom", "@alxshelepenok/diesel"],
-  globals: {
-    react: "React",
-    "react-dom": "ReactDOM",
-    "@alxshelepenok/diesel": "@alxshelepenok/diesel",
-  },
   input: "src/index.ts",
   output: [
-    { file: pkg.main, format: "umd", name: LIBRARY_NAME, sourcemap: true },
-    { file: pkg.module, format: "es", sourcemap: true },
+    {
+      file: pkg.main,
+      format: "umd",
+      globals: {
+        react: "React",
+        "react-dom": "ReactDOM",
+        "@alxshelepenok/diesel": "@alxshelepenok/diesel",
+      },
+      name: LIBRARY_NAME,
+      sourcemap: true,
+    },
+    {
+      file: pkg.module,
+      globals: {
+        react: "React",
+        "react-dom": "ReactDOM",
+        "@alxshelepenok/diesel": "@alxshelepenok/diesel",
+      },
+      format: "es",
+      sourcemap: true,
+    },
   ],
   plugins: [json(), typescript({ module: "esnext" }), commonjs(), resolve()],
   watch: { include: "src/**" },
