@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@alxshelepenok/diesel": "^1.0.806",
-    "@alxshelepenok/react-hooks": "^1.0.297"
+    "@alxshelepenok/react-hooks": "^1.0.299"
   },
   "devDependencies": {
     "@alxshelepenok/eslint-config": "^1.0.222",
