@@ -8,7 +8,7 @@ const pkg = require("../../package.json");
 const LIBRARY_NAME = "diesel-extensions";
 
 export default {
-  external: ["react", "react-dom", "@alxshelepenok/diesel"],
+  external: ["react", "react-dom", "@alxshelepenok/diesel", "@alxshelepenok/react-hooks"],
   input: "src/index.ts",
   output: [
     {
@@ -18,6 +18,7 @@ export default {
         react: "React",
         "react-dom": "ReactDOM",
         "@alxshelepenok/diesel": "@alxshelepenok/diesel",
+        "@alxshelepenok/react-hooks": "@alxshelepenok/react-hooks",
       },
       name: LIBRARY_NAME,
       sourcemap: true,
@@ -29,6 +30,7 @@ export default {
         react: "React",
         "react-dom": "ReactDOM",
         "@alxshelepenok/diesel": "@alxshelepenok/diesel",
+        "@alxshelepenok/react-hooks": "@alxshelepenok/react-hooks",
       },
       name: LIBRARY_NAME,
       sourcemap: true,
