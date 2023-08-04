@@ -39,7 +39,7 @@
     ]
   },
   "dependencies": {
-    "@alxshelepenok/diesel": "^1.0.998",
+    "@alxshelepenok/diesel": "^1.0.1000",
     "@alxshelepenok/react-hooks": "^1.0.484"
   },
   "devDependencies": {
