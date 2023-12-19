@@ -1,6 +1,6 @@
 {
   "name": "@alxshelepenok/diesel-extensions",
-  "version": "1.0.1083",
+  "version": "1.0.1084",
   "description": "A utility library for diesel state manager.",
   "repository": {
     "type": "git",
