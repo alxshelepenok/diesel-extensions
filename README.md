@@ -1,6 +1,6 @@
 ## diesel-extensions
 
-A utility library for diesel state manager.
+Utilities for Diesel state manager.
 
 ## License
 
