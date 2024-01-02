@@ -43,7 +43,7 @@
     "@alxshelepenok/react-hooks": "^1.0.654"
   },
   "devDependencies": {
-    "@alxshelepenok/eslint-config": "^1.0.388",
+    "@alxshelepenok/eslint-config": "^1.0.390",
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "@jest/types": "^29.6.3",
